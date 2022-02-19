@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">  
+</head>
+
+<body>
+    <h1>Good Vibes Form</h1>
+    <form>
+        <p id="description">Tell us something positive that happened to you today.</p>
+        <div id="form-content">
+            <div class="form-row">
+                <div class="question">
+                    <label for="name">Name</label>
+                </div>
+                <div class="answer">
+                    <input type="text" id="name" class="input-field" placeholder="Enter your name">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="question">
+                    <label for="email">Email</label>
+                </div>
+                <div class="answer">
+                    <input type="email" id="email" class="input-field" placeholder="Enter your email address">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="question">
+                    <label for="scale">On a scale of 1-10, how good was it?</label>
+                </div>
+                <div class="answer">
+                    <input type="number" id="scale" class="input-field" placeholder="Enter a number between 1 and 10">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="question">
+                    <label>Where did it happen?</label>
+                </div>
+                <div class="answer">
+                    <select class="dropdown">
+                        <option>At home</option>
+                        <option>On my commute</option>
+                        <option>At work</option>
+                        <option>On the street</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="question">
+                    <label>At what time of day did it happen?</label>
+                </div>
+                <div class="answer">
+                    <input type="radio" id="morning"><label for="morning"> Morning</label><br>
+                    <input type="radio" id="afternoon"><label for="afternoon"> Afternoon</label><br>
+                    <input type="radio" id="evening"><label for="evening"> Evening</label>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="question">
+                    <label>What emotions did you experience?<br>
+                        (Select all that apply)</label>
+                </div>
+                <div class="answer">
+                    <input type="checkbox" id="excited"><label for="excited"> Excited</label><br>
+                    <input type="checkbox" id="humbled"><label for="humbled"> Humbled</label><br>
+                    <input type="checkbox" id="elated"><label for="elated"> Elated</label><br>
+                    <input type="checkbox" id="loved"><label for="loved"> Loved</label><br>
+                    <input type="checkbox" id="enthusiastic"><label for="enthusiastic"> Enthusiastic</label>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="question">
+                    <label>Please describe your positive experience.</label>
+                </div>
+                <div class="answer">
+                    <textarea placeholder="Enter your experience here..." style="height:40px; font-family: Opens Sans Condensed;"></textarea>
+                </div>
+            </div>
+            <button type="submit">Submit</button>
+        </div>
+            
+    </form>
+
+</body>
+
+</html>
